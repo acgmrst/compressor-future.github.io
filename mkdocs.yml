@@ -1,0 +1,71 @@
+site_name: 压缩机技术知识库
+site_description: 能源动力工程领域-压缩机技术知识库
+site_author: acgmrst
+site_url: https://acgmrst.github.io/compressor-future.github.io/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sidebar
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - 第1章 压缩机概述与发展历史:
+    - 概述: 1_introduction/overview.md
+    - 发展历史: 1_introduction/history.md
+    - 分类与应用: 1_introduction/classification.md
+  - 第2章 往复式压缩机:
+    - 工作原理: 2_reciprocating/principle.md
+    - 结构组成: 2_reciprocating/structure.md
+    - 主要型号: 2_reciprocating/models.md
+    - 应用领域: 2_reciprocating/applications.md
+  - 第3章 涡旋式压缩机:
+    - 工作原理: 3_scroll/principle.md
+    - 结构组成: 3_scroll/structure.md
+    - 主要型号: 3_scroll/models.md
+    - 应用领域: 3_scroll/applications.md
+  - 第4章 螺杆式压缩机:
+    - 工作原理: 4_screw/principle.md
+    - 结构组成: 4_screw/structure.md
+    - 主要型号: 4_screw/models.md
+    - 应用领域: 4_screw/applications.md
+  - 第5章 离心式压缩机:
+    - 工作原理: 5_centrifugal/principle.md
+    - 结构组成: 5_centrifugal/structure.md
+    - 主要型号: 5_centrifugal/models.md
+    - 应用领域: 5_centrifugal/applications.md
+  - 第6章 滚动转子压缩机:
+    - 工作原理: 6_rotary/principle.md
+    - 结构组成: 6_rotary/structure.md
+    - 主要型号: 6_rotary/models.md
+    - 应用领域: 6_rotary/applications.md
+  - 附录:
+    - 压缩机选型指南: appendix/selection_guide.md
+    - 术语表: appendix/glossary.md
