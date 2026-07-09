@@ -24,6 +24,7 @@ theme:
     - navigation.sidebar
     - navigation.sections
     - navigation.top
+    - navigation.expand
     - content.code.copy
     - content.code.annotate
 
